@@ -185,4 +185,22 @@ price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
 
-34 - 
+34 - The escape character allows you to use double quotes when you normally would not be allowed:
+
+35 - Print a message based on whether the condition is True or False:
+
+36 - allows you to evaluate any value, and give you True or False in return
+
+37 - Check if an object is an integer or not isinstance
+
+38 - +	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y	
+**	Exponentiation	x ** y	
+//	Floor division
+
+39 - Create a List
+
+40 - 
