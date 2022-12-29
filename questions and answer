@@ -1,0 +1,188 @@
+1 - print hello world
+print("Hello, World!")
+
+2 - create a variable of integer and strings
+x = 5
+y = "Hello, World!"
+
+3 - comment a text
+#This is a comment.
+print("Hello, World!")
+
+4 - multiline comment
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")
+
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!")
+
+5 - get the type of the variable
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+
+6 - assign many values to multiple variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+7 - assign one value to multiple variable
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+8 - unpack a collection
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+9 - output a value
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+10 - Create a variable outside of a function, and use it inside the function
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+11 - To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+12 - If you want to specify the data type, you can use the following constructor functions:
+x = str("Hello World")	str	
+x = int(20)	int	
+x = float(20.5)	float	
+x = complex(1j)	complex	
+x = list(("apple", "banana", "cherry"))
+
+13 - Import the random module, and display a random number between 1 and 9:
+import random
+
+print(random.randrange(1, 10))
+
+14 casting and specifying variable type
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+15 - Get the character at position 1 (remember that the first character has the position 0):
+a = "Hello, World!"
+print(a[1])
+
+16 - Loop through the letters in the word "banana":
+for x in "banana":
+  print(x)
+  
+17 - To get the length of a string, use the len() function.
+a = "Hello, World!"
+print(len(a))
+
+18 - Check if "free" is present in the following text:
+txt = "The best things in life are free!"
+print("free" in txt)
+
+19 - Check if "expensive" is NOT present in the following text:
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+  
+ 20 - Slicing
+ Get the characters from position 2 to position 5 
+ b = "Hello, World!"
+print(b[2:5])
+
+21 - Get the characters from the start to position 5
+b = "Hello, World!"
+print(b[:5])
+
+22 - Get the characters from position 2, and all the way to the end:
+b = "Hello, World!"
+print(b[2:])
+
+23 - Get the characters:
+
+From: "o" in "World!" (position -5)
+
+To, but not included: "d" in "World!" (position -2):
+
+b = "Hello, World!"
+print(b[-5:-2])
+
+24 - method returns the string in upper case:
+a = "Hello, World!"
+print(a.upper())
+
+
+25 - method returns the string in lower case:
+a = "Hello, World!"
+print(a.lower())
+
+26 - method removes any whitespace from the beginning or the end:
+a = " Hello, World! "
+print(a.strip())
+
+27 - method replaces a string with another string:
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+28 - method splits the string into substrings if it finds instances of the separator:
+a = "Hello, World!"
+print(a.split(","))
+
+29 - Merge variable a with variable b into variable c:
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+30 - To add a space between them, add a " ":
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+31 - method to insert numbers into strings:
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+32 - The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+33 - You can use index numbers {0} to be sure the arguments are placed in the correct placeholders:
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+
+34 - 
